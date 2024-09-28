@@ -1,0 +1,41 @@
+.task-container {
+    padding: 20px;
+    background-color: #f0f4f8; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .task-title {
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+  }
+  
+  .task-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between table cells */
+    margin-top: 20px; /* Space above the table */
+  }
+  
+  .task-table th, .task-table td {
+    border: 1px solid #ddd; /* Light border for table cells */
+    padding: 12px; /* Padding for cells */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .task-table th {
+    background-color: #007bff; /* Blue background for header */
+    color: white; /* White text color */
+  }
+  
+  .task-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light grey background for even rows */
+  }
+  
+  .task-table tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+  }
+  
+  .task-table td {
+    vertical-align: middle; /* Center content vertically */
+  }
+  
